@@ -26,8 +26,11 @@ def load_data():
 df = load_data()
 
 # Criando o gráfico no Streamlit
-st.title('📊 Análise Geográfica ...')
-st.write("Este gráfico mostra a distribuição dos registros por cidade usando coordenadas geográficas.")
+st.title('📊 Análise Geográfica dos pedidos de acesso à informação')
+st.write("Distribuição geográfica dos pedidos de acesso à informação em Minas Gerais.")
+
+
+st.warning("Fonte: Dados disponibilizados pela Controladoria Geral da União atravpés da Plataforma Integrada de Ouvidoria e Acesso à Informação (Fala.BR)")
 
 # Criando o gráfico Mapbox
 fig = px.scatter_mapbox(
