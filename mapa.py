@@ -27,7 +27,7 @@ df = load_data()
 
 # Criando o gráfico no Streamlit
 st.title('📊 Análise Geográfica dos pedidos de acesso à informação')
-st.write("Distribuição geográfica dos pedidos de acesso à informação em Minas Gerais.")
+st.write("Distribuição geográfica dos pedidos de acesso à informação em Minas Gerais entre 2012 a 2023.")
 
 
 st.warning("Fonte: Dados disponibilizados pela Controladoria Geral da União atravpés da Plataforma Integrada de Ouvidoria e Acesso à Informação (Fala.BR)")
