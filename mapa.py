@@ -30,7 +30,7 @@ st.title('📊 Análise Geográfica dos pedidos de acesso à informação')
 st.write("Distribuição geográfica dos pedidos de acesso à informação em Minas Gerais de 2012 a 2023.")
 
 
-st.warning("Fonte: Dados disponibilizados pela Controladoria Geral da União atravpés da Plataforma Integrada de Ouvidoria e Acesso à Informação (Fala.BR)")
+st.warning("Fonte: dados disponibilizados pela Controladoria Geral da União através da Plataforma Integrada de Ouvidoria e Acesso à Informação (Fala.BR)")
 
 # Criando o gráfico Mapbox
 fig = px.scatter_mapbox(
